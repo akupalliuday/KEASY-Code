@@ -1,0 +1,34 @@
+
+ at time 7 job j8 is completed
+ at time-7
+	background	foreground	reservation
+P1	N		J4		0	
+P2	0		J7		J2	
+P3	0		J6		J2	
+P4	J10		J1		J2	
+P5	J9		J1		J2	
+ the status of Jobs in Job list
+Job ID	No. of Processes	Exe. Time	Pend. Time	Status
+1		2		10		3		incomplete
+
+2		4		6		6		incomplete
+
+3		2		5		0		complete
+
+4		1		11		4		incomplete
+
+5		1		2		0		complete
+
+6		1		3		1		incomplete
+
+7		1		5		1		incomplete
+
+8		1		4		0		complete
+
+9		1		5		3		incomplete
+
+10		1		8		6		incomplete
+
+11		5		10		10		incomplete
+
+12		4		8		8		incomplete
